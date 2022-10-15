@@ -41,4 +41,4 @@ class Futbolista(Persona, Deportista):
 
     #Metodos
     def __str__(self):
-        return ("Mi nombre es " + str(self.getNombre()) + " soy profesional en el deporte " + str(self.getDeporte()) + " Tengo " + self.getEdad() + " años de edad y llevo " + self.getAñosPracticando() + " años en el deporte")
+        return ("Mi nombre es " + str(Persona.getNombre()) + " soy profesional en el deporte " + str(Deportista.getDeporte()) + " Tengo " + Persona.getEdad() + " años de edad y llevo " + Deportista.getAñosPracticando() + " años en el deporte")
