@@ -7,9 +7,9 @@ class Futbolista(Persona, Deportista):
     def __init__(self, nombre = "", edad = 0, altura = "", sexo ="", añosPracticados = 0,golesMarcados = 0, tarjetasRojas = 0, piernaHabil = ""):
         Persona.__init__(self, nombre, edad, altura, sexo)
         Deportista.__init__(self, "Futbol", añosPracticados)
-        _golesMarcados = golesMarcados
-        _tarjetasRojas = tarjetasRojas
-        _piernaHabil = piernaHabil
+        self._golesMarcados = golesMarcados
+        self._tarjetasRojas = tarjetasRojas
+        self._piernaHabil = piernaHabil
         Futbolista._listaFutbolistas.append(self)
 
     #setters y getters

@@ -2,10 +2,10 @@ class Persona:
     
     #Constructor
     def __init__(self, nombre = "", edad = 0, altura = "", sexo =""):
-        _nombre = nombre
-        _edad = edad
-        _altura = altura
-        _sexo = sexo
+        self._nombre = nombre
+        self._edad = edad
+        self._altura = altura
+        self._sexo = sexo
 
     #getters y setters
     def getNombre(self):
