@@ -9,7 +9,7 @@ class Persona:
 
     #getters y setters
     def getNombre(self):
-        return self._name
+        return self._nombre
 
     def getEdad(self):
         return self._edad
